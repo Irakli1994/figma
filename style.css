@@ -1,0 +1,248 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    /* width: 1920px; */
+    height: 112px;
+    /* border: 2px solid red; */
+    background: #0F172A;
+}
+
+
+nav {
+    width: 100%;
+    background: #0F172A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 17px;
+}
+
+
+nav .ul-left .first-logo {
+    width: 44px;
+    height: 44px;
+}
+
+nav .ul-left .second-logo {
+    width: 178px;
+    height: 35px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+header nav .ul-right li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+
+header nav .ul-right li a {
+    color: #F8FAFC;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+
+header nav .ul-right .midd {
+    margin: 0px 25px 0px 25px;
+}
+
+header nav .ul-left,
+.ul-right {
+    padding: 0px 50px 0px 50px;
+}
+
+/*Header end ----->*/
+
+main {
+    background-color: #0F172A;
+}
+
+
+.up-section .title {
+    margin-left: 80px;
+    padding-top: 10px;
+    display: flex;
+    height: 70px;
+    /* border: 1px solid green; */
+}
+
+/*color*/
+.up-section .title .first-h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: white;
+}
+
+main .up-section .title .second-h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #16B8F3;
+    margin: 0px 0px 0px 10px;
+}
+
+main .up-section .card {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    width: 1150px;
+    height: 160px;
+    margin: 30px 0px 15px 88px;
+    background-color: #151E31;
+
+}
+
+main .up-section .card img {
+    width: 140px;
+    height: 140px;
+}
+
+main .up-section .card .text-info {
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid green; */
+    text-align: center;
+
+}
+
+main .up-section .card .text-info .card-info-title {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    width: 155px;
+}
+
+main .up-section .card .text-info p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #CBD5E1;
+}
+
+/*up-section-end ----->*/
+
+
+.down-section {
+    width: 1100px;
+    margin-top: 50px;
+}
+
+.down-section .title2 {
+    height: 70px;
+    margin-left: 80px;
+    display: flex;
+    padding-bottom: 90px;
+}
+
+.down-section .title2 .color {
+    color: white;
+}
+
+
+.down-section .title2 h3 {
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 50px;
+    color: #16B8F3;
+    margin: 0px 0px 0px 10px;
+}
+
+
+.down-section-text-info .text {
+    color: white;
+}
+
+.down-section .down-section-card {
+    /* border: 1px solid red; */
+    width: 100%;
+    padding-left: 80px;
+    display: flex;
+    height: 400px;
+    
+}
+
+.down-section .down-section-card img {
+    width: 200px;
+    height: 144px;
+    /* border: 1px solid green; */
+}
+
+
+.down-section .down-section-text-info {
+    width: 21%;
+    text-align: center;
+    height: 210px;
+    /* border: 1px solid red; */
+    background-color:#1E293B;
+}
+
+.down-section .down-section-text-info .title-into-card {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #F8FAFC;
+}
+
+.down-section .down-section-text-info .dim-color-text {
+    color: #9CA3AF;
+    font-size: 11.5px;
+}
+
+.down-section .down-section-text-info .text {
+    padding-top: 20px;
+    font-size: 11px;
+}
+
+/*down-section end*/
+
+footer {
+width: 100%;
+height: 100px;
+background: #0F172A;
+display: flex;
+justify-content: baseline;
+}
+
+footer p {
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+footer .icons {
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    margin-right: 50px;
+}
+
+footer .icons li a {
+    color: white;
+    font-size: 25px;
+}
+
+footer .icons .midd-icon a {
+    margin: 0px 15px 0px 15px;
+}
